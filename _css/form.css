@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+form {
+  /* Formatação do formulario como um todo*/
+  width: 800px;
+  margin: auto;
+}
+
+input,
+textarea {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 13pt;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+input:hover textarea:hover {
+  background-color: #dddddd;
+}
+
+legend {
+  color: #888888;
+  font-weight: bold;
+  font-size: 13pt;
+  font-family: sans-serif;
+}
+
+fieldset {
+  border-color: #cecece;
+  margin: 20px;
+}
+
+fieldset.usuario {
+  background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+}
+
+fieldset.sexo {
+  width: 150px;
+}
+
+fieldset.endereco {
+  background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+fieldset.mensagem {
+  background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
+
+fieldset.pedido {
+  background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+}
+
+input.button-enviar {
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  background-color: #5c1349;
+  color: #ffffff;
+  font-weight: bold;
+  opacity: 100%;
+  border: none;
+  text-shadow: 1px 1px 1px #000000;
+  box-shadow: 1px 1px 3px #333333;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+input.button-enviar:hover {
+  background-color: #661fff;
+  color: #ffffff;
+}
